@@ -1,8 +1,10 @@
+# make import notes
+
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
 path = './imgs'
-pathOut = '/editedImages'
+pathOut = '/editedImgs'
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
