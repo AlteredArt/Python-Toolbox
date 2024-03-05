@@ -29,3 +29,4 @@ if answer.lower() == "random access memory":
 else:
     print("That answer is not correct!")
 print("You got " + str(score) + " questions correct!")
+print("You got " + str((score / 4) * 100) + "%")
