@@ -4,25 +4,23 @@
   **CURRENT_STATUS = PRIVATE**
   
   ## Short Description
-  This is a Space Alien Defender game.
+  This is a personal toolbox of Python code and libraries.
   
   ## Long Description
-  Good morning, your Planet is being overrun by space invaders of all kinds.
-  You must assume your post and prevent your planet from total destruction.
-  Fire away.
+  This is a personal toolbox of Python code and libraries, that I use to progress my knowledge in Python.
   
   ## Demonstration
-  This project is live @ [https://alteredart.dev/PlanetXProtectors/](https://alteredart.dev/PlanetXProtectors/)
+  This project of projects is not available for demonstration, Thank you.
 
 
 
 # STATUS
-**This project is complete**
+**This project is constantly being added to**
 
   ## REQUIREMENTS
   OS: N/A
-  Languages: JavaScript 
-  Libraries: None
+  Languages: Python 
+  Libraries: Django
   Extra: None 
 
   ## Cloning
@@ -42,7 +40,7 @@
 
   ## Future development
   **All future development plans.**
-  This project is currently complete and I am focussing on other problems at the moment.
+  This project is constantly being updated.
   
   ## Can you help
   **See if you can help.**
@@ -60,34 +58,3 @@
 **Altered Art thank you for visiting.**
 **Just a small-town boy trying my best to learn and make the world better every day through code and a good community.**
 **If you wish to donate please contact me at cherokeedreemer@gmail.com**
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Planet X Protectors
-Good morning, you live on a planet far far in the deep reaches of space. This morning our radar detectors have a mass swarm of space beetles outside of our normal asteroid attacks. 
-
-We need you at the helm to keep the beetles at bay.
-
-Please man the turret on the rocket an keep those damn bugs at bay!
-
-Make sure you remove at least 20 beetles, while we prepare our bombs.
-
-
-## LEVEL: 1
-
-## LEVEL: 2
-Coming Soon
-## LEVEL: 3
-Coming Soon
-## LEVEL: 4
-Coming Soon
