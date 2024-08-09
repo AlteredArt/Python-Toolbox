@@ -1,5 +1,5 @@
  # TITLE
-**Python-Toolbox
+**Python-Toolbox**
 
   **CURRENT_STATUS = PRIVATE**
   
@@ -30,7 +30,7 @@
   
   ## Setup
   **How to download all needed libraries and set up this project.**
-  Coming soon!
+  Not intended to be distributed!
 
 
   
@@ -44,8 +44,7 @@
   
   ## Can you help
   **See if you can help.**
-  At the moment I am open to suggestions.
-
+  At the moment I am not taking suggestions at the moment.
   ## Known Bugs
   **This is a list of all known bugs**
   * There are no known issues at the moment.
