@@ -30,10 +30,11 @@ class Card:
                     cards.append(Card(value, suit))
         return cards
     
-    cards = generate_cards(values, suits)
+cards = generate_cards(values, suits)
+
             
-    print(cards)
+print(cards)
 
 
-    for card in cards:
-        print(card.value, card.suit)
+for card in cards:
+    print(card.value, card.suit)
