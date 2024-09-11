@@ -14,27 +14,30 @@ face_cards = {
 
 print(face_cards)
 
+
 class Card:
+    pass
+
     def __init(self, value, suit):
         self.value = value
         self.suit = suit
 
-    def generate_cards(values, suits):
-        cards = []
-        for value in values:
-            for suit in suits:
-                if value in face_cards:
-                    card_value = face_cards[value]
-                    cards.append(Card(card_value, suit))
-                else:
-                    cards.append(Card(value, suit))
-        return cards
+    # def make_cards(values, suits):
+    #     cards = []
+    #     for value in values:
+    #         for suit in suits:
+    #             if value in face_cards:
+    #                 card_value = face_cards[value]
+    #                 cards.append(Card(card_value, suit))
+    #             else:
+    #                 cards.append(Card(value, suit))
+    #     return cards
     
-cards = generate_cards(values, suits)
+    # cards = make_cards(values, suits)
 
             
-print(cards)
+    # print(cards)
 
 
-for card in cards:
-    print(card.value, card.suit)
+# for card in cards:
+#     print(card.value, card.suit)
