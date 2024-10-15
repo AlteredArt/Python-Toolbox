@@ -13,17 +13,37 @@
     # our team always plays 10 matches in the championship
     # 0 <= x <= 4
     # 0 <= y <= 4
-def points(games):
-    points = 0
+# def points(games):
+#     points = 0
     
-    for score in games:
-        print(score)
-        if games[0][0] > games[0][2]:
-            points += 3
-        elif games[0][0] == games[0][2]:
-            points += 1
-        elif games[0][0] < games[0][2]:
-            continue
-    print(points)
+#     for score in games:
+#         print(score)
+#         if games[0][0] > games[0][2]:
+#             points += 3
+#         elif games[0][0] == games[0][2]:
+#             points += 1
+#         elif games[0][0] < games[0][2]:
+#             continue
+#     print(points)
 
-points(['1:0','2:0','3:0','4:0','2:1','1:3','1:4','2:3','2:4','3:4'])
+# points(['1:0','2:0','3:0','4:0','2:1','1:3','1:4','2:3','2:4','3:4'])
+
+
+
+
+
+
+
+
+def remove_every_other(my_list):
+    
+    for char in my_list:
+        index = 0
+        my_list.pop(1 + index)
+        print(my_list)
+
+    print(my_list)
+
+
+
+remove_every_other(['Hello', 'Goodbye', 'Hello Again', 'Goodbye'])
