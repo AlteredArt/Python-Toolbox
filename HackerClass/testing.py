@@ -30,20 +30,10 @@
 
 
 
-
-
-
-
-
-def remove_every_other(my_list):
-    
-    for char in my_list:
-        index = 0
-        my_list.pop(1 + index)
-        print(my_list)
-
-    print(my_list)
-
-
-
-remove_every_other(['Hello', 'Goodbye', 'Hello Again', 'Goodbye'])
+def are_you_playing_banjo(name):
+    # Implement me!
+    if name[0] == "r":
+        print(name[0])
+    else:
+        print
+are_you_playing_banjo("kate")
