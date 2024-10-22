@@ -35,5 +35,5 @@ def are_you_playing_banjo(name):
     if name[0] == "r":
         print(name[0])
     else:
-        print
+        print('hello')
 are_you_playing_banjo("kate")
