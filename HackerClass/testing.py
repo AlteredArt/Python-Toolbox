@@ -29,11 +29,12 @@
 # points(['1:0','2:0','3:0','4:0','2:1','1:3','1:4','2:3','2:4','3:4'])
 
 
+def remove_char(s):
+    print(s.split())
+    split = s.split()
+    print(split[0][0])
+    
+    for letter in split:
+        print(letter)
 
-def are_you_playing_banjo(name):
-    # Implement me!
-    if name[0] == "r":
-        print(name[0])
-    else:
-        print('hello')
-are_you_playing_banjo("kate")
+remove_char('sowhat')
