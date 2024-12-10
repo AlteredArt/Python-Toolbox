@@ -56,12 +56,15 @@ root.geometry("600x600")
 header_label = tk.Label(root, text="Weather", font="Helvetica, 20")
 header_label.pack(fill="x", pady=10)
 
+# INTRO DESCRIPTION
 info_label = tk.Label(root, text="Enter a city name to see the current weather status", font="Helvetica, 14")
 info_label.pack(fill="x", pady=10)
 
+# SELECT A CITY
 city_entry = ttkbootstrap.Entry(root, font="Helvetica, 18")
 city_entry.pack(pady=30)
 
+# SEARCH BUTTON
 search_button = ttkbootstrap.Button(root, text="Search", command=search, bootstyle="info")   
 search_button.pack(pady=20)
 
