@@ -68,9 +68,11 @@ city_entry.pack(pady=30)
 search_button = ttkbootstrap.Button(root, text="Search", command=search, bootstyle="info")   
 search_button.pack(pady=20)
 
+# LOCATION DISPLAYED
 location_label= tk.Label(root, font="Helvetica, 28")
 location_label.pack(pady=20)
 
+# WEATHER ICON
 icon_label = tk.Label(root)
 icon_label.pack()
 
