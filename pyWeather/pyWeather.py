@@ -1,7 +1,9 @@
 import tkinter as tk
 import requests
+
 from tkinter import messagebox
 from PIL import Image, ImageTk
+
 import ttkbootstrap
 
 # GET WEATHER FROM WEATHER API
@@ -76,19 +78,15 @@ location_label.pack(pady=20)
 icon_label = tk.Label(root)
 icon_label.pack()
 
+# TEMPERATURE DISPLAYED
 temperature_label = tk.Label(root, font="Helvetica, 20")
 temperature_label.pack()
 
+
+# WEATHER DESCRIPTION
 description_label = tk.Label(root, font="Helvetica, 20")
 description_label.pack()
 
+# RUN MAIN APP LOOP
 root.mainloop()
-
-
-
-# https://api.openweathermap.org/data/2.5/weather?q=Denver&appid=b6a61e5b7a18005040feaa658d3a6eed'&units=imperial
-
-
-
-
 
